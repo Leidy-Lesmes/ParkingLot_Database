@@ -1,4 +1,7 @@
 FROM postgres:latest
+
 ENV POSTGRES_PASSWORD=a123
-ENV postgres_DB=ParkingLot
+
+ENV POSTGRES_DB=ParkingLot
+
 EXPOSE 5432
